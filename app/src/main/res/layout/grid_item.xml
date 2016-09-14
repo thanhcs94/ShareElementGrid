@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1.5dp"
+    android:transitionName="background_transition">
+
+    <com.thanhcs.shareelements.SquareImageLayout
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:transitionName="image_transition"
+        android:src="@android:drawable/btn_star_big_on"/>
+
+</LinearLayout>
